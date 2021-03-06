@@ -2,7 +2,7 @@
   margin: -5px auto 10px auto;
   height: 3px;
   width: 100px;
-  background-color: #333;
+  background-color: #fff;
 }
 
 body {
@@ -37,8 +37,9 @@ body {
   }
 }
 
-#title {
-  background: url("../img/lights.jpg");
+#title,
+#testimonials {
+  background: url("../img/hospital.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -54,10 +55,12 @@ body {
     height: 100%;
     width: 100%;
     background: rgba(0, 0, 0, 0.6);
+  }
+}
 
-    h1 {
-      margin-top: 40px;
-    }
+#title {
+  h1 {
+    margin-top: 40px;
   }
 }
 
@@ -91,9 +94,11 @@ body {
 }
 
 #testimonials {
+  height: 420px;
+
   img {
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
   }
 
   p {
@@ -102,6 +107,7 @@ body {
 
   .blockquote-footer {
     font-size: 16px !important;
+    text-align: right;
   }
 }
 
